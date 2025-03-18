@@ -206,6 +206,11 @@ WEAK const PinMap PinMap_CAN_TD[] = {
 WEAK const PinMap PinMap_USB[] = {
   {PA_11, USB, CH_PIN_DATA(CH_MODE_INPUT, GPIO_NOPULL, AFIO_NONE)}, // USB_DM
   {PA_12, USB, CH_PIN_DATA(CH_MODE_INPUT, GPIO_NOPULL, AFIO_NONE)}, // USB_DP
+  // Replace this to use secondary USB port
+  /*
+  {PB_6, USB, CH_PIN_DATA(CH_MODE_INPUT, GPIO_NOPULL, AFIO_NONE)}, // USB_DM
+  {PB_7, USB, CH_PIN_DATA(CH_MODE_INPUT, GPIO_NOPULL, AFIO_NONE)}, // USB_DP
+  */
   {NC, NP, 0}
 };
 #endif

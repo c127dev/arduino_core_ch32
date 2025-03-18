@@ -51,3 +51,11 @@ PB_11_ALT1 = PB_11 | ALT1,
   USB_DM = PA_11,
   USB_DP = PA_12,
 #endif
+
+// Secondary USB Port
+/*
+#ifdef USBCON
+  USB_DM = PB_6,
+  USB_DP = PB_7,
+#endif
+*/
